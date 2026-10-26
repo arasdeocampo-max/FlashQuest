@@ -1,8 +1,9 @@
 # FlashQuest
 
-FlashQuest is an offline-first Android flashcard study app built with Flutter
-and Dart. Create decks and cards, study at your own pace, and track mastery
-locally with SQLite. The app does not require an account or network connection.
+FlashQuest is an offline-first Android-only flashcard study app built with
+Flutter and Dart. Create decks and cards, study at your own pace, and track
+mastery locally with SQLite. The app does not require an account or network
+connection. Android is the only supported deployment target in this repository.
 
 ## Features
 
@@ -33,6 +34,9 @@ resolved dependency versions.
 - Android SDK and an Android device or emulator.
 - Flutter's supported Android build toolchain. See the
   [Flutter Android setup guide](https://docs.flutter.dev/platform-integration/android/setup).
+
+This project does not include iOS, web, Windows, Linux, or macOS build
+configurations.
 
 ## Run the app
 
