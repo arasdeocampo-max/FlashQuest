@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Android 12+: a small static loading mark, independent of the launcher icon.
+     All three dots sit well inside the system splash icon's safe zone. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="288dp"
+    android:height="288dp"
+    android:viewportWidth="288"
+    android:viewportHeight="288">
+    <path android:fillColor="#6F4BB8"
+        android:pathData="M126,144 a4,4 0,1 0,8,0 a4,4 0,1 0,-8,0 Z" />
+    <path android:fillColor="#6F4BB8"
+        android:pathData="M140,144 a4,4 0,1 0,8,0 a4,4 0,1 0,-8,0 Z" />
+    <path android:fillColor="#6F4BB8"
+        android:pathData="M154,144 a4,4 0,1 0,8,0 a4,4 0,1 0,-8,0 Z" />
+</vector>

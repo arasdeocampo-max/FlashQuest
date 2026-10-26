@@ -1,0 +1,13 @@
+flutter_launcher_icons:
+  android: true
+  ios: false
+  # Prepared from the untouched original by tool/generate_launcher_icons.ps1.
+  # Transparent margins protect the complete design on legacy round launchers.
+  image_path_android: assets/icon/flash-card-launcher.png
+  # This matches the existing minimum; it does not change the Android build.
+  min_sdk_android: 24
+  adaptive_icon_foreground: assets/icon/flash-card.png
+  adaptive_icon_background: "#FAF9FD"
+  # 25% on each side places the full artwork in a 54dp region of the 108dp
+  # layer, within Android's 66dp safe zone, including circular masks.
+  adaptive_icon_foreground_inset: 25
